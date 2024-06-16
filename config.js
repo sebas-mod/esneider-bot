@@ -3,12 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['59168683798', 'CREADOR 🍒', true],
-  ['59168683798']
+  ['5491140951814', 'CREADOR', true],
+  ['5491140951814']
 ] //Numeros de owner 
 
 global.mods = [''] 
-global.prems = ['59168683798', '59176181985']
+global.prems = ['55491140951814', '5491140951814']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -20,13 +20,13 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '𝙂𝙚𝙣𝙚𝙨𝙞𝙨 𝙋𝙧𝙤𝙛𝙚𝙨𝙨𝙞𝙤𝙣𝙖𝙡' 
-global.author = '@usxr_angelito' 
+global.packname = '𝐞𝐬𝐧𝐞𝐢𝐝𝐞𝐫 𝐛𝐨𝐭' 
+global.author = '𝙨𝙚𝙗𝙖𝙨 𝙢𝙤𝙙' 
 
 //--info FG
-global.botName = 'Genesis'
-global.fgig = 'https://instagram.com/usxr_angelito' 
-global.fgsc = 'https://github.com/karim-off/GenesisBot-Pro' 
+global.botName = '𝐞𝐬𝐧𝐞𝐢𝐝𝐞𝐫 𝐛𝐨𝐭'
+global.fgig = '' 
+global.fgsc = '' 
 global.fgyt = ''
 global.fgpyp = ''
 global.fglog = '' 
@@ -38,7 +38,7 @@ global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6'
 global.bgp2 = 'https://chat.whatsapp.com/J4GaLNqbzAHEkzNQy9N62O'
 global.bgp3 = 'https://chat.whatsapp.com/J4GaLNqbzAHEkzNQy9N62O' //--GP NSFW
 
-global.wait = '🍒 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....'
+global.wait = '🐉𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
