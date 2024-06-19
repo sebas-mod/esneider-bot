@@ -31,7 +31,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-┌「*🐉ｅｓｎｅｉｄｅｒ－ｂｏｔ*」
+┌「🐉*ｅｓｎｅｉｄｅｒ－ｂｏｔ*」
 │◦╭─────────────
 │◦┊🐉 𝙃𝙤𝙡𝙖 %name
 │◦┊⏳ 𝙏𝙞𝙚𝙢𝙥𝙤 𝘼𝙘𝙩: %muptime %sbot
