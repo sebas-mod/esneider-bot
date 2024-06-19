@@ -24,12 +24,12 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('Genesis Bot', {
+say('esneider-bot', {
   font: 'pallet',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`Genesis-Bot By: Angelito`, {
+say(`esneider-Bot By: sebas`, {
   font: 'console',
   align: 'center',
   gradient: ['cyan', 'magenta']
