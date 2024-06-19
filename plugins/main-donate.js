@@ -3,19 +3,19 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 
     let don = `
 
-» 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘿𝙀𝙇 𝘽𝙊𝙏
-wa.me/59897246324
+🐉𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘿𝙀𝙇 𝘽𝙊𝙏
+wa.me/5491140951814
 
-» 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈
-https://www.instagram.com/usxr_angelito
+🐉𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈
+https://www.instagram.com/sebas_dzn
 
 _Puedes apoyar el bot dando tu estrellita en nuestro repositorio_
 
-» 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙊
-https://github.com/Karim-off/GenesisBot-Pro
+🐉 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙊
 
 
-> GenesisBot-Pro: Angelito
+
+🐉𝙚𝙨𝙣𝙚𝙞𝙙𝙚𝙧-𝙗𝙤𝙩: 𝙨𝙚𝙗𝙖𝙨
 `
 let img = 'https://i.ibb.co/37FP2bk/donate.jpg'
 conn.sendFile(m.chat, img, 'img.jpg', don, m, null, rcanal)
