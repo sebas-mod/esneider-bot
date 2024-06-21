@@ -3,9 +3,9 @@
 <img src="https://telegra.ph/file/79362cee7783f07b96e35.jpg" alt="EsneiderBot-Pro" width="900"/>
 </p>
 
-#### Version De Génesis: Beta
+#### Version De Esneider: Beta
 
-#### Creador y Dueño: Angelito 🫅
+#### Creador y Dueño: Sebas 🫅
 #### Proyecto Realizado: XB STAFF⚡
 
 ### CONTACTOS 💻
