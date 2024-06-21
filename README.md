@@ -1,4 +1,4 @@
-### 🍒 GÉNESIS BOT PRO 🍒
+### ☠️ ESNEIDER BOT PRO ☠️
 <p align="center">
 <img src="https://telegra.ph/file/79362cee7783f07b96e35.jpg" alt="EsneiderBot-Pro" width="900"/>
 </p>
