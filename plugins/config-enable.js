@@ -2,27 +2,31 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-  const optionsFull = `≡ Lista de Opciones
+  const optionsFull = `≡ Lista de comandos activar/desactivar
 
-┌─⊷ *ADMIN*
-▢ captcha
-▢ welcome
-▢ antilink
-▢ detect 
-▢ document
-▢ nsfw
-▢ modohorny
+╭═────═⌘═────═╮
+┌─⊷ ADMIN
+♛captcha
+♛ welcome
+♛ antilink
+♛ detect 
+♛ document
+♛ nsfw
+♛ modohorny
+♛ audios
 └───────────── 
-┌─⊷ *USERS*
-▢ autolevelup
-▢ chatbot 
+┌─⊷ USERS
+😎 autolevelup
+😎 chatbot 
 └─────────────
-┌─⊷ *OWNER*
-▢ antibotclone
-▢ public
-▢ solopv
-▢ sologp
-└─────────────
+┌─⊷ OWNER
+👺 antibotclone
+👺 public
+👺 solopv
+👺 sologp
+👺 antiprivado
+👺 anticall
+╰═────═⌘═────═╯
 *📌 Ejemplo :*
 *${usedPrefix}on* welcome
 *${usedPrefix}off* welcome`.trim();
