@@ -9,7 +9,7 @@ m.reply(`*${toM(a)}, YA ES HORA DE QUE TE ENAMORES DE  ${toM(b)}, HACEN UNA HERM
 mentions: [a, b]
 })}
 handler.help = ['formarpareja']
-handler.tags = ['fun']
+handler.tags = ['game]
 handler.command = ['formarpareja','formarparejas']
 handler.group = true
 export default handler
