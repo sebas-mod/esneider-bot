@@ -17,10 +17,10 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 *⌚ 𝗗𝘂𝗿𝗮𝗰𝗶𝗼𝗻 »* ${vid.timestamp}
 *👀 𝗩𝗶𝘀𝗶𝘁𝗮𝘀 »* ${vid.views.toLocaleString()}`
  await conn.sendButton2(m.chat, play, mssg.ig, thumbnail, [
-    ['📁 MP3 DOC', `${usedPrefix}fgmp3 ${url}`],
-    ['📁 MP4 DOC', `${usedPrefix}fgmp4 ${url}`],
-    ['🍀 MENÚ', `${usedPrefix}allmenu`]
-  ], null, [['🍒 CANAL', `${fgcanal}`]], m)
+    ['📁 𝗠𝗣𝟯 𝗗𝗢𝗖', `${usedPrefix}fgmp3 ${url}`],
+    ['📁 𝗠𝗣𝟰 𝗗𝗢𝗖', `${usedPrefix}fgmp4 ${url}`],
+    ['🍀 𝗠𝗘𝗡𝗨', `${usedPrefix}allmenu`]
+  ], null, [['🍒 𝗖𝗔𝗡𝗔𝗟', `${fgcanal}`]], m)
 }
 handler.help = ['play']
 handler.tags = ['dl']
