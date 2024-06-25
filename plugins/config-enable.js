@@ -321,7 +321,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `*𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨𝐧*\n\n*» 𝙊𝙋𝘾𝙄𝙊𝙉 |* _${type.toUpperCase()}_\n*» 𝙀𝙎𝙏𝘼𝘿𝙊 |* ${isEnable ? '𝘈𝘊𝘛𝘐𝘝𝘈𝘋𝘖' : '𝘋𝘌𝘚𝘈𝘊𝘛𝘐𝘝𝘈𝘋𝘖'}\n*» 𝙋𝘼𝙍𝘼 |* ${isAll ? '𝘌𝘚𝘛𝘌 𝘊𝘏𝘈𝘛' : isUser ? '' : '𝘌𝘚𝘛𝘌 𝘊𝘏𝘈𝘛'}\n> 𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃`}, {quoted: fkontak});
+  conn.sendMessage(m.chat, {text: `*𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨𝐧*\n\n*😎 𝙊𝙋𝘾𝙄𝙊𝙉 |* _${type.toUpperCase()}_\n*👺𝙀𝙎𝙏𝘼𝘿𝙊 |* ${isEnable ? '𝘈𝘊𝘛𝘐𝘝𝘈𝘋𝘖' : '𝘋𝘌𝘚𝘈𝘊𝘛𝘐𝘝𝘈𝘋𝘖'}\n*» 𝙋𝘼𝙍𝘼 |* ${isAll ? '𝘌𝘚𝘛𝘌 𝘊𝘏𝘈𝘛' : isUser ? '' : '𝘌𝘚𝘛𝘌 𝘊𝘏𝘈𝘛'}\n> 𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃`}, {quoted: fkontak});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['nable', 'owner'];
