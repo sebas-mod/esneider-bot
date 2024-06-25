@@ -1,7 +1,7 @@
 { 
-    "name": "GenesisBot-Pro",
-    "version": "3.0.0",
-    "description": "La mejor Bot de WhatsApp",
+    "name": "ESNEIDER-BOT",
+    "version": "1.0.0",
+    "description": "el mejor Bot de WhatsApp",
     "main": "index.js",
     "type": "module",
     "directories": {
