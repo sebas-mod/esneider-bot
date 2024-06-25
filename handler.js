@@ -186,7 +186,7 @@ if (!('antiPrivate' in settings)) settings.antiPrivate = false
                 self: false,
                 autoread: false,
                 restrict: false,
-              antiPrivate: false;
+              antiPrivate: false,
                 solopv: false, 
                 sologp: false,
                 status: 0
