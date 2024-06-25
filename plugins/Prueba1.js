@@ -18,8 +18,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 *👀 𝗩𝗶𝘀𝗶𝘁𝗮𝘀 »* ${vid.views.toLocaleString()}`
  await conn.sendButton2(m.chat, play, mssg.ig, thumbnail, [
     ['📁 MP3 DOC', `${usedPrefix}fgmp3 ${url}`],
-    ['📁 MP4 DOC', `${usedPrefix}fgmp4 ${url}`]
-  ],
+    ['📁 MP4 DOC', `${usedPrefix}fgmp4 ${url}`],
     ['🍀 MENÚ', `${usedPrefix}allmenu`]
   ], null, [['🍒 CANAL', `${fgcanal}`]], m)
 }
