@@ -26,16 +26,16 @@
         "senna-bot",
         "baileys-md"
     ],
-    "homepage": "https://github.com/karim-off/GenesisBot-Pro",
+    "homepage": "https://github.com/sebas-mod/esneider-bot",
     "author": {
-        "name": "FG98"
+        "name": "sebas mod"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/karim-off/GenesisBot-Pro.git"
+        "url": "https://github.com/sebas-mod/esneider-bot.git"
     },
     "bugs": {
-        "url": "https://github.com/karim-off/GenesisBot-Pro/issues"
+        "url": "https://github.com/sebas-mod/esneider-bot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
