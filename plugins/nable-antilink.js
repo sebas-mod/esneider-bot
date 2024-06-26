@@ -13,7 +13,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
    }
 }
 handler.help = ['antilink <on/off>']
-handler.tags = ['nable']
+handler.tags = ['group']
 handler.command = ['antiLink', 'antilink']
 handler.use = ['on/off']
 handler.group = true 
