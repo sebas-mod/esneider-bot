@@ -4,12 +4,12 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡ Use estos comandos sin el prefijo: *${usedPrefix}*
 ┌─⊷ *AUDIOS* 
-▢ Bot
-▢ Buenos días
-▢ Buenas tardes 
-▢ Buenas noches
-▢ Fino señores
-▢ Sad
+│ ♛► Bot
+│ ♛► Buenos días
+│ ♛► Buenas tardes 
+│ ♛► Buenas noches
+│ ♛► Fino señores
+│ ♛► Sad
 └──────────────
 `
     let pp = './src/Menu.jpg' 
