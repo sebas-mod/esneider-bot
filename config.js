@@ -25,7 +25,7 @@ global.author = '𝙨𝙚𝙗𝙖𝙨 𝙢𝙤𝙙'
 
 //--info FG
 global.botName = '𝐞𝐬𝐧𝐞𝐢𝐝𝐞𝐫 𝐛𝐨𝐭'
-global.fgig = 'solo preguntas del bot' 
+global.fgig = 'https://www.instagram.com/sebas_dzn' 
 global.fgigt = 'https://www.instagram.com/sebas_dzn'
 global.fgsc = 'https://github.com/sebas-mod/esneider-bot' 
 global.fgyt = ''
