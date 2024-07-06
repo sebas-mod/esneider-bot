@@ -10,7 +10,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         //const url = 'https://www.youtube.com/watch?v=' + videoId
         m.react('🎧') 
   let play = `
-       *≡ 🌿 𝗚𝗘𝗡𝗘𝗦𝗜𝗦 𝗕𝗢𝗧 🌿*
+       *≡ 🌿 𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃 🌿*
 
 *📌 𝗧𝗶𝘁𝘂𝗹𝗼 »* ${vid.title}
 *📆 𝗖𝗿𝗲𝗮𝗱𝗼 »* ${vid.ago}
@@ -20,7 +20,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     ['📁 𝗠𝗣𝟯 𝗗𝗢𝗖', `${usedPrefix}ytmp3doc ${url}`],
     ['📁 𝗠𝗣𝟰 𝗗𝗢𝗖', `${usedPrefix}ytmp4doc ${url}`],
     ['🍀 𝗠𝗘𝗡𝗨', `${usedPrefix}menu`]
-  ], null, [['🍒 𝗖𝗔𝗡𝗔𝗟', `${fgcanal}`]], m)
+  ], null, [['🐉 𝗖𝗔𝗡𝗔𝗟', `${fgcanal}`]], m)
 }
 handler.help = ['playdoc']
 handler.tags = ['dl']
