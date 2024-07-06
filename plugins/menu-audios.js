@@ -1,7 +1,7 @@
 
 let handler = async function (m, { conn, text, usedPrefix }) {
 
-    m.react('🐈‍⬛')
+    m.react('🐉')
 
 let m2 = `
 *│ ♛ＥＳＮＥＩＤＥＲ ＢＯＴ│ ♛+
@@ -39,7 +39,7 @@ global.fcontact = {
         },
         message: {
             contactMessage: {
-                displayName: `\nɢᴇɴᴇꜱɪꜱ ᴘʀᴏꜰᴇꜱɪᴏɴᴀʟ \nᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛꜱᴀᴘᴘ`,
+                displayName: `𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃\ \nᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛꜱᴀᴘᴘ`,
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
