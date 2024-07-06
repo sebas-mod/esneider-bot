@@ -213,6 +213,7 @@ handler.help = ['botclone']
 handler.tags = ['bebot']
 handler.command = ['bebot', 'serbot', 'jadibot', 'botclone', 'clonebot']
 handler.rowner = false
+handler.premium = true
 
 export default handler
 
