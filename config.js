@@ -33,7 +33,7 @@ global.fgpyp = ''
 global.fglog = '' 
 
 //--- Grupos WA
-global.id_canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y' //-ID de canal de WhatsApp
+global.id_canal = 'https://whatsapp.com/channel/0029VafHsEoBqbr3qlW1aX0U' //-ID de canal de WhatsApp
 global.fgcanal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
 global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6'
 global.bgp2 = 'https://chat.whatsapp.com/J4GaLNqbzAHEkzNQy9N62O'
