@@ -52,7 +52,7 @@ global.fcontact = {
     ],m, rpyt)*/
     /*conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rcanal)*/
 conn.sendMessage(m.chat, {
-      video: {url: "https://telegra.ph/file/bca65c9fc39ac7261a17d.mp4"},
+      let pp = './src/Menu.jpg'
       gifPlayback: true,
       caption: m2.trim(),
       }, {quoted: m})
