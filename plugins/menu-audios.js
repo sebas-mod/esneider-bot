@@ -1,10 +1,9 @@
-
 let handler = async function (m, { conn, text, usedPrefix }) {
 
     m.react('🐉')
 
 let m2 = `
-*│ ♛ＥＳＮＥＩＤＥＲ ＢＯＴ│ ♛+
+│ ♛ＥＳＮＥＩＤＥＲ ＢＯＴ│ ♛
 
 │ ♛►🐉 𝗛𝗼𝗹𝗮 𝘀𝗼𝘆 𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃
 │ ♛►🐉 𝗧𝗲 𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗼 𝗺𝗶 𝗺𝗲𝗻𝘂 𝗮𝘂𝗱𝗶𝗼𝘀
@@ -29,7 +28,8 @@ let m2 = `
 *│ ♛►🐉* :𝘤
 *└┉┅━━━━━◄••♛••►━━━━━━┅┉┘*
 `
-    let pp = 'https://telegra.ph/file/dea5be4c82fb223f1682d.jpg' 
+`
+    let pp = 'https://telegra.ph/file/5284524e12b9b7ab59985.jpg' 
 
 global.fcontact = {
         key: {
@@ -39,24 +39,18 @@ global.fcontact = {
         },
         message: {
             contactMessage: {
-                displayName: `𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃\ \nᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛꜱᴀᴘᴘ`,
+                displayName: `\n𝙴𝚂𝙽𝙴𝙸𝙳𝙴𝚁-𝙱𝙾𝚃🐉\n`,
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
     };
 
-    await conn.reply(m.chat, '│ ♛►🐉`𝗖𝗔𝗥𝗚𝗔𝗡𝗗𝗢 𝗠𝗘𝗡𝗨....`', fcontact);
+    await conn.reply(m.chat, ' 𝙇𝙊𝘼𝘿𝙄𝙉𝙂....', fcontact);
     /*conn.sendButton(m.chat, m2, mssg.ig, pp, [
       ['⏍ Info', `${usedPrefix}botinfo`],
       ['⌬ Grupos', `${usedPrefix}gpdylux`]
     ],m, rpyt)*/
-    /*conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rcanal)*/
-conn.sendMessage(m.chat, {
-        video: {url: "https://telegra.ph/file/bca65c9fc39ac7261a17d.mp4"},
-      gifPlayback: true,
-      caption: m2.trim(),
-      }, {quoted: m})
-
+    conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rcanal)
 
 }
 
