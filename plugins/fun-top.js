@@ -36,7 +36,7 @@ function handler(m, {groupMetadata, command, conn, text, usedPrefix}) {
     ptt: true});
 }
 handler.help = handler.command = ['top'];
-handler.tags = ['fun'];
+handler.tags = ['game'];
 handler.group = true;
 handler.limit = 2;
 export default handler;
