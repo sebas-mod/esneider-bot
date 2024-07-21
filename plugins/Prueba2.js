@@ -20,11 +20,11 @@ let thumbnail = await yt.thumbnail
 
 let img = await (await fetch(`${thumbnail}`)).buffer()  
 if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.`, m, rcanal).then(_ => m.react('âœ–ï¸'))
-	let txt = '`ä¹‚  Y O U T U B E  -  M P 3 D O C`\n\n'
-       txt += `	âœ©   *Titulo* : ${title}\n`
-       txt += `	âœ©   *Calidad* : ${q}\n`
-       txt += `	âœ©   *TamaÃ±o* : ${size}\n\n`
-       txt += `> *- â†» El audio se esta enviando espera un momento, soy lento como una tortuga 🐢. . .*`
+	let txt = 'Y O U T U B E  -  M P 3 D O C`\n\n'
+       txt += `	   *Titulo* : ${title}\n`
+       txt += `	   *Calidad* : ${q}\n`
+       txt += `	   *TamaÃ±o* : ${size}\n\n`
+       txt += `> *- El audio se esta enviando espera un momento, soy lento como una tortuga 🐢. . .*`
 await star.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)
 await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: m })
 await m.react('âœ…')
