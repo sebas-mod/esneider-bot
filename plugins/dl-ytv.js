@@ -34,7 +34,7 @@ let vid = (await yts(text)).all[0]
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat, `El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m).then(_ => m.react('✖️'))
 
 await conn.sendMessage(m.chat, {
-        text: `🍭 *Título ∙* ${title}\n⚖️ *Tamaño ∙* ${size}\n\n*↻ Espera @${m.sender.split`@`[0]}, soy lenta. . .*`,
+        text: `🍭 *Título ∙* ${title}\n⚖️ *Tamaño ∙* ${size}\n\n*↻ Espera @${m.sender.split`@`[0]}, > El audio se esta enviando espera un momento, soy lento como una tortuga 🐢. . .*`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
