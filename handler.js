@@ -178,7 +178,7 @@ export async function handler(chatUpdate) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = false
                 if (!('restrict' in settings)) settings.restrict = false
-                if (!('antiPrivate' in settings)) settings.antiPrivate = false
+                if (!('antiPrivate' in settings)) settings.antiPrivate = true
                 if (!('status' in settings)) settings.status = 0
                 if (!('solopv' in settings)) settings.solopv = false // el bot responde solo por dm
                 if (!('sologp' in settings)) settings.sologp = false // el bot responde solo en grupos
@@ -186,7 +186,7 @@ export async function handler(chatUpdate) {
                 self: false,
                 autoread: false,
                 restrict: false,
-              antiPrivate: false,
+              antiPrivate: true,
                 solopv: false, 
                 sologp: false,
                 status: 0
