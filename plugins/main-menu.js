@@ -10,7 +10,7 @@ let tags = {
   'game': 'JUEGOS 🎮',
   'econ': 'NIVEL & ECONOMIA 🍀',
   'rg': 'REGISTRO 📈',
-  'gc': 'POPULAR 🅿️',
+  'ai': 'ai-bot',
   'sticker': 'STICKER ☕',
   'img': 'IMAGEN 🌱',
   'maker': 'MAKER ✍️',
